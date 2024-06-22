@@ -1,5 +1,0 @@
-psql -h dpg-cpcf43rtg9os738cbgvg-a.oregon-postgres.render.com \
--p 5432 \
--d pa004_5sdi \
--U meigabots \
--W jHtR4eEQNDPquJjosnuZQ76KS6d1lMOT
