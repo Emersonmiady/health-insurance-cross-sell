@@ -42,40 +42,26 @@ Note: the example has Rs. i.e. Rupee, an Indian money sign. So, the problem pote
 
 My strategy to solve this challenge was:
 
-**Step 01. Data Description:**
+**Step 01. Data Description:** My goal is to use statistics metrics to identify data outside the scope of business.
 
-|Variable|Definition|
-|--------|----------|
-|id|Unique ID for the customer|
-|Gender|Gender of the customer|
-|Age|Age of the customer|
-|Driving_License|0 : Customer does not have DL, 1 : Customer already has DL|
-|Region_Code|Unique code for the region of the customer|
-|Previously_Insured|1 : Customer already has Vehicle Insurance, 0 : Customer doesn't have Vehicle Insurance|
-|Vehicle_Age|Age of the Vehicle|
-|Vehicle_Damage|1 : Customer got his/her vehicle damaged in the past. 0 : Customer didn't get his/her vehicle damaged in the past.|
-|Annual_Premium|The amount customer needs to pay as premium in the year|
-|Policy_Sales_Channel|Anonymized Code for the channel of outreaching to the customer ie. Different Agents, Over Mail, Over Phone, In Person, etc.|
-|Vintage|Number of Days, Customer has been associated with the company|
-|Response|1 : Customer is interested, 0 : Customer is not interested|
+**Step 02. Feature Engineering:** Derive new attributes based on the original variables to better describe the phenomenon that will be modeled.
 
-**Step 02. Feature Engineering:**
+**Step 03. Data Filtering:** Filter rows and select columns that do not contain information for modeling or that do not match the scope of the business.
 
-**Step 03. Data Filtering:**
+**Step 04. Exploratory Data Analysis:** Explore the data to find insights and better understand the impact of variables on model learning.
 
-**Step 04. Exploratory Data Analysis:**
+**Step 05. Data Preparation:** Prepare the data so that the Machine Learning models can learn the specifc behaviour.
 
-**Step 05. Data Preparation:**
+**Step 06. Feature Selection:** Selection of the most significant attributes for training the model.
 
-**Step 06. Feature Selection:**
+**Step 07. Machine Learning Modelling:** Machine Learning model training.
 
-**Step 07. Machine Learning Modelling:**
+**Step 08. Hyperparameter Fine Tunning:** Choose the best value for each of the parameters
+ of the model selected from the previous step.
 
-**Step 08. Hyperparameter Fine Tunning:**
+**Step 09. Convert Model Performance to Business Values:** Convert the performance of the Machine Learning model into a business resut. 
 
-**Step 09. Convert Model Performance to Business Values:**
-
-**Step 10. Deploy Modelo to Production:**
+**Step 10. Deploy Modelo to Production:** Publish the model in a cloud environment so that other people or services can use the results to improve the business decision.
 
 # 4. Top 3 Data Insights
 
