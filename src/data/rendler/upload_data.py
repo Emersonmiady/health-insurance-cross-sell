@@ -10,9 +10,9 @@ creds = {
 }
 
 # Import pandas DataFrames
-demographics = pd.read_csv("../../../data/raw/initial_upload_render/demographics.csv").astype('object')
-policy_and_response = pd.read_csv("../../../data/raw/initial_upload_render/policy_and_response.csv").astype('object')
-vehicle = pd.read_csv("../../../data/raw/initial_upload_render/vehicle.csv").astype('object')
+demographics = pd.read_csv("../../../data/external/demographics.csv").astype('object')
+policy_and_response = pd.read_csv("../../../data/external/policy_and_response.csv").astype('object')
+vehicle = pd.read_csv("../../../data/external/vehicle.csv").astype('object')
 
 # Upload data
 upload_data(creds, demographics, 'demographics')

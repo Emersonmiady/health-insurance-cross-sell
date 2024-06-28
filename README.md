@@ -67,13 +67,19 @@ My strategy to solve this challenge was:
 
 **Hypothesis 01:** If the car has been insured, then the customers will have more interest on the insurance of the company.
 
+![h7_previously_insured](reports/figures/h7_previously_insured.png)
+
 **FALSE.** If the car has been insured, the interest on vehicle insurance is **lower**. This is curious, maybe it is related with bad experiences with other vehicle insurance companies.
 
 **Hypothesis 02:** If the vehicle was been damaged, then the vehicle insurance interest is greater.
 
+![h9_vehicle_damage](reports/figures/h9_vehicle_damage.png)
+
 **TRUE.** If the vehicle was been damaged, normally people want a vehicle insurance.
 
 **Hypothesis 03:** Customers with older vehicle have less interest on vehicle insurance.
+
+![h8_vehicle_age](reports/figures/h8_vehicle_age.png)
 
 **FALSE.** Customers with older vehicle have **more interest** on vehicle insurance. This is curious too, people with less vehicle age tend to preserve their vehicles earlier...
 
