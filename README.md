@@ -65,17 +65,17 @@ My strategy to solve this challenge was:
 
 # 4. Top 3 Data Insights
 
-**Hypothesis 01:** If the car has been insured, then the customers will have more interest on the insurance of the company.
+**Hypothesis 01:** If the customer already has vehicle insurance, then the customers will have more interest on the insurance of our company.
 
 ![h7_previously_insured](reports/figures/h7_previously_insured.png)
 
-**FALSE.** If the car has been insured, the interest on vehicle insurance is **lower**. This is curious, maybe it is related with bad experiences with other vehicle insurance companies.
+**TRUE**. If the customer already has vehicle insurance, the interest on our vehicle insurance is **lower**. So, the recomendation is to not offer our insurance to them.
 
-**Hypothesis 02:** If the vehicle was been damaged, then the vehicle insurance interest is greater.
+**Hypothesis 02:** If the vehicle has been damaged, then the vehicle insurance interest is greater.
 
 ![h9_vehicle_damage](reports/figures/h9_vehicle_damage.png)
 
-**TRUE.** If the vehicle was been damaged, normally people want a vehicle insurance.
+**TRUE.** If the vehicle has been damaged, normally people want a vehicle insurance.
 
 **Hypothesis 03:** Customers with older vehicle have less interest on vehicle insurance.
 
