@@ -1,0 +1,30 @@
+# Final model
+CatboostClassifier
+
+# Final features
+final_x_feat = [
+    'age', 'gender', 'famous_region',
+    'vehicle_damage', 'vehicle_age',
+    'policy_sales_channel2_124',
+    'policy_sales_channel2_152', 
+    'policy_sales_channel2_26'
+]
+
+# Best catboost params from optuna - ROC AUC: 0.8309
+best_catboost_params = {
+    'iterations': 311, 
+    'depth': 6, 
+    'learning_rate': 0.04772516436776049, 
+    'random_strength': 8.35660360558705, 
+    'l2_leaf_reg': 51.72660544188361, 
+    'subsample': 0.7852968586384578, 
+    'colsample_bylevel': 0.6713810602285384, 
+    'min_data_in_leaf': 54,
+    'auto_class_weights':'Balanced',
+    'early_stopping_rounds':50,
+    'logging_level':'Silent',
+    'random_state':42
+}
+
+# Fit params
+{'eval_set':[(X_test_rescaled, y_test_n)]}
