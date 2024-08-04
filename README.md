@@ -81,7 +81,7 @@ My strategy to solve this challenge was:
 
 ![h8_vehicle_age](reports/figures/h8_vehicle_age.png)
 
-**FALSE.** Customers with older vehicle have **more interest** on vehicle insurance. This is curious too, people with less vehicle age tend to preserve their vehicles earlier...
+**FALSE.** Customers with older vehicle have **more interest** on vehicle insurance. This is curious too, people with less vehicle age tend to preserve their vehicles earlier, but that's not the case.
 
 # 5. Machine Learning Model Applied
 
