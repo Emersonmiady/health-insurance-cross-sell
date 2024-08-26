@@ -15,7 +15,7 @@ app = Flask(__name__)
 path = '../model/'
 model = pickle.load(open(path + 'best-model.pkl', 'rb'))
 
-@app.route('/healthinsurance/predict', methods=['POST'])
+@app.route('/predict', methods=['POST'])
 def healthinsurance_predict():
     test_json = request.get_json()
 
@@ -44,7 +44,7 @@ def healthinsurance_predict():
         return df_response
     
     else:
-        return Response('{}', status=200, mimetype='aplication/json')
+        return Response('{}', status=200, mimetype='application/json')
 
 if __name__ == '__main__':
     app.run('0.0.0.0', debug=True)

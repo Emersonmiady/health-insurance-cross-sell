@@ -3,7 +3,7 @@ import pandas as pd
 
 class HealthInsuranceCrossSell:
     def __init__(self):
-        self.home_path = '../src/features/'
+        self.home_path = '../features/'
         self.encoders = pickle.load(open(self.home_path + 'encoders.pkl', 'rb'))
         self.scalers = pickle.load(open(self.home_path + 'scalers.pkl', 'rb'))
         self.final_features = [
@@ -55,7 +55,7 @@ class HealthInsuranceCrossSell:
             'famous_region', 'vehicle_age', 'vehicle_age2', 
             'hi_customer_profitability', 'famous_policy_sales_channel', 
             'policy_sales_channel2_124', 'policy_sales_channel2_152', 
-            'policy_sales_channel2_26', 'gender', 'response'
+            'policy_sales_channel2_26', 'gender'
         ]
 
         df = df[scaler_vars]
