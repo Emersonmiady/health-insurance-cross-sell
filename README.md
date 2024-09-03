@@ -184,9 +184,8 @@ I used Apps Script from Google Sheets to put propensity score automatically. It 
 
 The best model can select well the most propensity customers of health insurance, but one important thing that we have to consider:
 
-```
-Cross-sell of vehicle insurance and health insurance aren't correlated, so we can sell vehicle insurance separately! This is a good business question to think in the future.
-```
+- **Cross-sell of vehicle insurance and health insurance aren't correlated, so we can sell vehicle insurance separately! This is a good business question to think in the future.**
+
 
 I afirm this because when we look at the feature selection, no one variable related to health insurance was selected, so this fact doesn't impact on vehicle insurance selling.
 
